@@ -164,20 +164,24 @@
 }
 
 @media (max-width: 1100px){
-    body::before{
+    .main-body::before{
         transform: translateX(-50%) skewX(-5deg);
+    }
+    .main-body {
+        overflow: hidden;
     }
     .product{
         flex-direction: column;
-        width: 45%;
-        margin: 5vh 0;
+        width: 50%;
+        margin: 5vh 0 ;
+        /* background-color: #966e4f; */
     }
     .product-img{
-        width: 90%;
+        width: 87%;
         height: 100%;
     }
     .product-listing{
-        width: 90%;
+        width: 87%;
         max-height: fit-content;
         min-height: auto;
     }
