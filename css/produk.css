@@ -169,15 +169,16 @@
     }
     .product{
         flex-direction: column;
-        width: 70%;
+        width: 45%;
         margin: 5vh 0;
     }
     .product-img{
-        width: 100%;
+        width: 90%;
         height: 100%;
     }
     .product-listing{
-        width: 100%;
+        width: 90%;
+        max-height: fit-content;
         min-height: auto;
     }
     .name,.price{
